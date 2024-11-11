@@ -8,12 +8,13 @@ WORKDIR /app
 COPY . .
 
 # Compila la aplicación
-RUN go build -o main exercise5.go
+RUN go build -o main main.go
 
 # Expone el puerto 8000
-EXPOSE 3000
+EXPOSE 8000
 
 # Comando para ejecutar la aplicación
 CMD ["./main"]
+
 
 
