@@ -5,7 +5,7 @@
     <img src="Public/Images/Resultado.png" alt="Result ">
 </p>
 
-This is a program that presents a message on the web with Javascript
+This is a program that presents a message on the web with Go
 
 ## :open_book: Repository on Github
 * Clone the repository
