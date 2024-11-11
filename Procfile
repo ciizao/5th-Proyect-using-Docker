@@ -1,1 +1,1 @@
-web: go run exercise5.go
+web: ./main
