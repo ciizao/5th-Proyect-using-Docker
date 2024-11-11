@@ -20,6 +20,6 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Hay nueva petición")
-	io.WriteString(w, "Hola mundo")
+	fmt.Println("New repetition")
+	io.WriteString(w, "This is the fifth project in docker in the Go language")
 }
