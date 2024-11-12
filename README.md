@@ -19,6 +19,12 @@ This is a program that presents a message on the web with Go
 * Docker - DockerDesktop installed
 * DockerHub account
 ### Download image
+
+*Image in the DockerHub repository and how to use it
+
+```
+https://hub.docker.com/repository/docker/ciizao/5th-proyect-using-docker-go
+```
 ```
 docker pull ciizao/5th-proyect-using-docker-go
 ```
@@ -44,18 +50,18 @@ For its deployment in a PAAS we will rely on railway and its easy implementation
 
 ![Railway Service](Public/ublic/Images/Railway1.png "Service")
 
-The platform automatically uses our Dockerfile to build the container.
-
-![Build Container](Public/Images/Railway3.png "Build Configuration")
 
 > [!IMPORTANT]
-> Next, the configuration that we must add is the generation of a domain along with the desired port, in this case the indicated thing would be to point to port 3000
+> Next, the configuration that we must add is the generation of a domain along with the desired port, in this case the indicated thing would be to point to port 8000
 
 ![Generate Domain](Public/Images/Railway4.png "Domain")
 
-![Generate Domain](./public/Images/Railway2.png "Domain")
+![Generate Domain](Public/Images/Railway2.png "Domain")
 
 ### View the results
+
+This is the result of deploying in Railway through the created domain
+
 ![Result Railway](Public/Images/RailwayResult.png "Domain")
 
 
