@@ -48,7 +48,7 @@ Open new window browser and search localhost:8000
 ## :light_rail: PAAS Deploy with docker (Railway)
 For its deployment in a PAAS we will rely on railway and its easy implementation thanks to its container management. 
 
-![Railway Service](Public/ublic/Images/Railway1.png "Service")
+![Railway Service](Public/Images/Railway1.png "Service")
 
 
 > [!IMPORTANT]
